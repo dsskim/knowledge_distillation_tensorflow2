@@ -36,6 +36,7 @@ Use `train_kd.py` to train a teacher network. You have to run after training tea
 ## Model
 ### Teacher model
 <center><img src="./images/teacher_model.png" width="50%" height="50%"></center>
+
 ### Student model
 <center><img src="./images/student_model.png" width="50%" height="50%"></center>
 
