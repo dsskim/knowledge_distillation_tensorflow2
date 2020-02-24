@@ -49,25 +49,25 @@ Use `train_kd.py` to train a teacher network. You have to run after training tea
   - Student model: 10K
 
 ### Teacher Model
-<center><img src="./images/Teacher.png" width="50%" height="50%"></center>
+<center><img src="./images/Teacher.png"></center>
 
 - train accuracy: 99.82%
 - test accuracy: 98.11%
 
 ### Student Model
-<center><img src="./images/Student.png" width="50%" height="50%"></center>
+<center><img src="./images/Student.png"></center>
 
 - train accuracy: 96.77%
 - test accuracy: 93.64%
 
 ### Student Model with KD
-<center><img src="./images/KD.png" width="50%" height="50%"></center>
+<center><img src="./images/KD.png"></center>
 
 - train accuracy: 96.82%
 - test accuracy: 97.24%
 
 ### All plot
-<center><img src="./images/combination.png" width="50%" height="50%"></center>
+<center><img src="./images/combination.png"></center>
 
 ---
 
