@@ -26,3 +26,10 @@ def small_model(input_size, target_cls):
     model.summary()
 
     return model
+
+if __name__ == "__main__":
+    t = large_model(784, 10)
+    s = small_model(784, 10)
+
+    tf.keras.utils.plot_model(t, to_file='teacher.png', show_shapes=True, show_layer_names=True, expand_nested=True)
+    tf.keras.utils.plot_model(s, to_file='student.png', show_shapes=True, show_layer_names=True, expand_nested=True)
